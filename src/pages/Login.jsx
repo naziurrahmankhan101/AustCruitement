@@ -51,7 +51,8 @@ const Login = () => {
           <form className='py-8 flex flex-col gap-5'
             onSubmit={handleSubmit(onSubmit)} >
             <TextInput
-             name="email" placeholder="email@example.com"
+             name="email" 
+             placeholder="email@example.com"
              
              label="Email Address"
              type="email"
